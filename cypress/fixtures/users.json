@@ -1,0 +1,22 @@
+{
+  "userAuthor": {
+    "email": "sokovets+test@outlook.com",
+    "password": "123456",
+    "name": "marina-Author"
+  },
+  "user1": {
+    "email": "sokovets+test1@outlook.com",
+    "password": "123456",
+    "name": "marina1"
+  },
+  "user2": {
+    "email": "sokovets+test2@outlook.com",
+    "password": "123456",
+    "name": "marina2"
+  },
+  "user3": {
+    "email": "sokovets+test3@outlook.com",
+    "password": "123456",
+    "name": "marina3"
+  }
+}

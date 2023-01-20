@@ -1,0 +1,6 @@
+{
+    "quickDrawButton": "[href='/randomizer'] > .btn-secondary",
+    "notifications": ".layout-1__header-wrapper-fixed  .layout-row-start > :nth-child(2)",
+    "notificationMessage": ".notifications-item__message",
+    "readNotifications": ".notifications-panel__top > .base--clickable"
+}
