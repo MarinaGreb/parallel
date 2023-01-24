@@ -20,9 +20,8 @@
     "cy:nokey:parallel2": "npm run cy:nokey:spec2 -- --browser firefox & npm run cy:nokey:spec1 -- --browser firefox",
     
     "cy:nokey:paralleli": "cypress-parallel -s cy:run -t 3 -d 'cypress/e2e'",
-    "cy:parallel:cloud":"npm run cypress-parallel -s cy:run -t 3 -d 'cypress/e2e --record --key 0c6350b9-a152-4393-93a4-60047beafd9b",
     
-    "cy:parallel": " npm run cy:spec1 -- --browser chrome --group chrome --ci-build-id 1 --parallel &&  npm run cy:spec2 -- --browser electron --group electron --ci-build-id 1 --parallel ",
+    "cy:parallel": " npm run cy:spec1 -- --browser chrome --group chrome --ci-build-id 1 --parallel &  npm run cy:spec2 -- --browser electron --group electron --ci-build-id 1 --parallel ",
     "cy:run:1spec:1conf": "cypress run --spec 'cypress/e2e/test1' --config-file cypress.config.js --browser chrome --headed",
     "cy:run:2spec:2conf": "cypress run --spec 'cypress/e2e/test2' --config-file cypress.config2.js --browser electron --headed"
 
